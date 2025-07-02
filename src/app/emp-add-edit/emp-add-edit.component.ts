@@ -9,6 +9,14 @@ import { MatDialog } from '@angular/material/dialog';
   styleUrls: ['./emp-add-edit.component.css']
 })
 export class EmpAddEditComponent {
+  education:string[]= [
+    'Matric',
+    'Diploma',
+    'Intermediate',
+    'Graduate',
+    'Post-Graduate'
+
+  ]
   constructor() {}
 
   
