@@ -1,7 +1,21 @@
-<div mat-dialog-title> <h1>Employee Details</h1></div>
-<div mat-dialog-content></div>
+<div mat-dialog-title>
+    <h1>Employee Details</h1>
+</div>
+<div mat-dialog-content>
+    <div class="div">
+        <mat-form-field appearance="outline">
+            <mat-label>First Name</mat-label>
+            <input matInput>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Last Name</mat-label>
+            <input matInput>
+        </mat-form-field>
+    </div>
+
+</div>
 <div matDialogActions>
     <button mat-raised-button color="primary">Cancel</button>
-        <button mat-raised-button color="warn">Save</button>
+    <button mat-raised-button color="warn">Save</button>
 
 </div>

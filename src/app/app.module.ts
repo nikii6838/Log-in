@@ -11,6 +11,9 @@ import {MatButtonModule} from '@angular/material/button';
 import { EmpAddEditComponent } from './emp-add-edit/emp-add-edit.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+
+
 @NgModule({
 
   declarations: [
@@ -28,7 +31,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatIconModule,
     MatButtonModule,
     MatDialogModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatInputModule
+    
   
   ],
   providers: [],
